@@ -2,7 +2,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
       headerPanel("MPG regression model"),
       sidebarPanel(
-            h4("Documentation: 
+            h4("Description: 
                This app builds the regression model on the subset of mtcars dataset that is an R build in dataset. 
                The MpG variable is used as the outcome and the weight variable is used as the regressor.
                The dataset can be subsetted by either number of cylinders or transmission type or both."),
